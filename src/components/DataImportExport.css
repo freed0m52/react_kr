@@ -1,0 +1,86 @@
+.data-import-export {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+
+.data-import-export h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.status-message {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.btn-export {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-export:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.file-input-label {
+  background: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.file-input-label:hover {
+  background: #218838;
+}
+
+.drop-zone {
+  border: 2px dashed #6c757d;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: center;
+  margin: 20px 0;
+  transition: all 0.3s;
+  background: white;
+}
+
+.drop-zone.dragging {
+  border-color: #007bff;
+  background: #e3f2fd;
+}
+
+.import-info {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+  border-left: 4px solid #007bff;
+}
+
+.import-info pre {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 3px;
+  overflow-x: auto;
+  font-size: 12px;
+}

@@ -1,0 +1,84 @@
+.api-loader {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.api-loader-header h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.4em;
+}
+
+.api-loader-header p {
+  margin: 0 0 20px 0;
+  opacity: 0.9;
+  font-size: 1em;
+}
+
+.load-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: all 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.load-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.load-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.load-btn.loading {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.error-message {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  backdrop-filter: blur(10px);
+}
+
+.api-features {
+  margin-top: 25px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.api-features h4 {
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.api-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.api-features li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.api-features li:last-child {
+  border-bottom: none;
+}
