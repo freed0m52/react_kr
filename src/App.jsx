@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // ИЗМЕНИТЬ
 import { ThemeProvider } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
 import Navigation from './components/MaterialNavigation';
@@ -12,7 +12,7 @@ function App() {
   return (
     <ThemeProvider theme={muiTheme}>
       <CssBaseline />
-      <Router>
+      <Router> {/* Теперь HashRouter */}
         <div className="App">
           <Navigation />
           
